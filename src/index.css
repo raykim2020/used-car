@@ -1,13 +1,218 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.listing-content {
+    margin-top: 20px;
+}
+
+.header {
+    background-color: skyblue;
+    height: 100%;
+}
+
+.logo {
+    width: 100px;
+    height: 50px;
+}
+
+.taskContainer {
+    margin-top: 30px;
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.details {
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+.home {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.listItem {
+    margin-top: 5px;
+    border-bottom: 2px solid black;
+
+}
+
+.indeximg {
+    width: 500px;
+    height: 300px
+}
+
+.aboutUs {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Nav_Bar {
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listing-page {
+    margin-top: 70px;
+}
+
+.submit {
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+.shopListing {
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 5px solid rgba(25, 143, 182, 0.642);
+    padding: 10px 0px 10px;
+    background-color: lightblue;
+}
+
+.listing {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 5px solid rgba(25, 143, 182, 0.642);
+    padding: 10px 0px 10px;
+    background-color: lightblue;
+}
+
+.cartItem {
+    margin: 40px;
+
+}
+
+ul {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15rem;
+    border: 5px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a {
+    background-color: white;
+    padding: 5px 40px;
+    border-radius: 15px;
+}
+
+.abt {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.index {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.listing-img {
+    height: 200px;
+    width: 250px
+}
+
+.form-container {
+    margin-top: 50px;
+    border-radius: 1vmin;
+    padding: 3vmin;
+}
+
+.Auth {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    border: 5px solid skyblue;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid skyblue;
+    padding: 3vmin;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1.25vmin;
+
+}
+
+.indexdescription {
+    border: 5px solid rgba(25, 143, 182, 0.642);
+    background-color: lightblue;
+}
+
+.paragraph {
+    border: 5px solid rgba(25, 143, 182, 0.642);
+    background-color: lightblue;
+}
+
+.cartItem {
+    border-bottom: 1px solid black;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
 }
