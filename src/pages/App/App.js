@@ -42,6 +42,7 @@ export default function App() {
     setShoppingCart([...shoppingCart, item])
 
   }
+  const [populatedUser, setPopulatedUser] = useState({})
   console.log(user)
 
   return (
@@ -57,7 +58,7 @@ export default function App() {
             <Route path="/cars/:id" element={<ListingItem />} />
             <Route path="/cars/newlisting" element={<NewListingPage />} />
             <Route path="/cars/shop" element={<Shop user={user} />} />
-            <Route path="/cars/orderhistory" element={<OrderHistoryPage />} />
+            <Route path="/cars/orderhistory" element={<OrderHistoryPage user={user} />} />
             <Route path="/cars/shoppingcart" element={<Cart user={user} />} />
           </Routes>
         </>
